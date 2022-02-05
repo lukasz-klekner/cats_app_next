@@ -1,9 +1,11 @@
+import Link from 'next/link'
+
 const Nav = () => (
   <nav className='navbar navbar-expand-lg navbar-light bg-light'>
     <div className='container-md'>
-      <a className='navbar-brand' href='#'>
+      <Link className='navbar-brand' href='/'>
         Navbar
-      </a>
+      </Link>
     </div>
   </nav>
 )
